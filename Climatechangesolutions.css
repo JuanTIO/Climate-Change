@@ -1,0 +1,32 @@
+h2 {font-size: 70px;
+text-align:center;
+color: #32ABD3;
+font-family: Arial;
+margin-top:75px;
+margin-bottom: 30px;}
+h3 {
+  font-size: 45px;
+  text-align:center;  
+  color: #32ABD3;
+  font-family: Arial;
+  margin-top: 25px;
+    margin-bottom:25px;
+}
+.column {
+  float: left;
+    width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.text{
+        font-size:19px;
+  margin-left:250px;
+  margin-right:250px;
+  }
+img {
+  padding:15px;
+}
